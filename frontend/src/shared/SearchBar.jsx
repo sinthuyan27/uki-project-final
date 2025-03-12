@@ -52,9 +52,9 @@ const SearchBar = ({ tours }) => {
     console.log(filteredTours, "filterTours")
   };
 
-  if (!Array.isArray(tours)) {
-    return <p>Loading tours...</p>;
-  }
+  // if (!Array.isArray(tours)) {
+  //   return <p>Loading tours...</p>;
+  // }
 
   return (
     <Col lg="12">
